@@ -9,7 +9,7 @@ module.exports = {
     './rules/prettier',
     './rules/promise',
     './rules/sort-keys-fix',
-    '.rules/jest',
-    '.rules/react',
+    './rules/jest',
+    './rules/react',
   ].map(require.resolve),
 };
