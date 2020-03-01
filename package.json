@@ -4,7 +4,7 @@
   "description": "All the eslint rules.",
   "main": "index.js",
   "scripts": {
-    "eslint": "eslint --fix ."
+    "lint": "eslint '*/**/*.{js,ts,tsx}' --fix"
   },
   "repository": {
     "type": "git",

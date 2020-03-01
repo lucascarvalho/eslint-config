@@ -3,8 +3,8 @@
  */
 module.exports = {
   extends: [
-    'plugin:import/errors',
-    'plugin:import/typescript',
-    'plugin:import/warnings',
+    "plugin:import/errors",
+    "plugin:import/typescript",
+    "plugin:import/warnings",
   ],
 };

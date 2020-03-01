@@ -3,14 +3,14 @@
  */
 module.exports = {
   extends: [
-    './rules/eslint',
-    './rules/filenames',
-    './rules/import',
-    './rules/jest',
-    './rules/prettier',
-    './rules/promise',
-    './rules/react',
-    './rules/sort-keys-fix',
-    './rules/typescript',
+    "./rules/eslint",
+    "./rules/filenames",
+    "./rules/import",
+    "./rules/jest",
+    "./rules/promise",
+    "./rules/react",
+    "./rules/sort-keys-fix",
+    "./rules/typescript",
+    "./rules/prettier",
   ].map(require.resolve),
 };

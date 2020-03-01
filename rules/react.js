@@ -2,6 +2,11 @@
  * Configuration for the eslint-plugin-react.
  */
 module.exports = {
-  plugins: ['react'],
-  extends: ['plugin:react/all'],
+  extends: ["plugin:react/all"],
+  plugins: ["react"],
+  settings: {
+    react: {
+      version: "detect",
+    },
+  },
 };

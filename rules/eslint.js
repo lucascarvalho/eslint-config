@@ -2,15 +2,23 @@
  * Configuration for the eslint.
  */
 module.exports = {
-  extends: ['eslint:all'],
+  extends: ["eslint:all"],
   globals: {
-    console: 'readonly',
-    fetch: 'readonly',
-    module: 'readonly',
-    process: 'readonly',
-    require: 'readonly',
+    console: "readonly",
+    fetch: "readonly",
+    module: "readonly",
+    process: "readonly",
+    require: "readonly",
   },
-  ignorePatterns: ['node_modules/'],
-  parser: '@typescript-eslint/parser',
+  ignorePatterns: ["node_modules/"],
+  parser: "@typescript-eslint/parser",
+  parserOptions: {
+    ecmaFeatures: {
+      modules: true,
+    },
+    ecmaVersion: 6,
+    project: "./tsconfig.json",
+    sourceType: "module",
+  },
   rules: {},
 };
