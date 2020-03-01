@@ -6,10 +6,11 @@ module.exports = {
     './rules/eslint',
     './rules/filenames',
     './rules/import',
+    './rules/jest',
     './rules/prettier',
     './rules/promise',
-    './rules/sort-keys-fix',
-    './rules/jest',
     './rules/react',
+    './rules/sort-keys-fix',
+    '.rules/typescript',
   ].map(require.resolve),
 };
