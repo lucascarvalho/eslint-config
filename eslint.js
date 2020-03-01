@@ -11,6 +11,6 @@ module.exports = {
     './rules/promise',
     './rules/react',
     './rules/sort-keys-fix',
-    '.rules/typescript',
+    './rules/typescript',
   ].map(require.resolve),
 };
