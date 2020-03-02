@@ -17,8 +17,8 @@ module.exports = {
   ],
   plugins: ["filenames"],
   rules: {
-    "filenames/match-exported": "error",
-    "filenames/match-regex": ["error", "^[a-z-]+$", true],
+    "filenames/match-exported": ["error", ["kebab", "pascal"]],
+    "filenames/match-regex": ["error", "^[a-zA-Z-]+$", true],
     "filenames/no-index": "error",
   },
 };
