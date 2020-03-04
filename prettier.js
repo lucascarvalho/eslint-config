@@ -4,12 +4,14 @@
 module.exports = {
   overrides: [
     {
-      files: "package.json",
+      files: "*.json",
       options: { parser: "json" },
     },
+    {
+      files: [".*rc.js"],
+      options: {
+        printWidth: 110,
+      },
+    },
   ],
-  semi: true,
-  singleQuote: false,
-  tabWidth: 2,
-  trailingComma: "es5",
 };
