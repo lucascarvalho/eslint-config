@@ -20,5 +20,8 @@ module.exports = {
     project: "./tsconfig.json",
     sourceType: "module",
   },
-  rules: {},
+  rules: {
+    /* Disable to better organize the code. */
+    "one-var": "never",
+  },
 };
