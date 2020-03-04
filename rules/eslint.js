@@ -23,5 +23,8 @@ module.exports = {
   rules: {
     /* Disable to better organize the code. */
     "one-var": "never",
+
+    /* Disable for common numbers */
+    "no-magic-numbers": ["error", { ignore: [-1, 0, 1] }],
   },
 };
