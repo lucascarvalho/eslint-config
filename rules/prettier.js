@@ -7,10 +7,10 @@ module.exports = {
     "prettier/@typescript-eslint",
     "prettier/babel",
     "prettier/react",
-    "prettier/standard",
+    "prettier/standard"
   ],
   plugins: ["prettier"],
   rules: {
-    "prettier/prettier": "error",
-  },
+    "prettier/prettier": "error"
+  }
 };

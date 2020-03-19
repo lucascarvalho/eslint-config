@@ -5,13 +5,13 @@ module.exports = {
   overrides: [
     {
       files: "*.json",
-      options: { parser: "json" },
+      options: { parser: "json" }
     },
     {
       files: [".*rc.js"],
       options: {
-        printWidth: 110,
-      },
-    },
-  ],
+        printWidth: 110
+      }
+    }
+  ]
 };

@@ -11,6 +11,6 @@ module.exports = {
     "./rules/react",
     "./rules/sort-keys-fix",
     "./rules/typescript",
-    "./rules/prettier",
-  ].map(require.resolve),
+    "./rules/prettier"
+  ].map(require.resolve)
 };
