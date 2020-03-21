@@ -18,13 +18,13 @@
     "native",
     "react"
   ],
-  "author": "Lucas Carvalho Teixeira",
+  "author": "Lucas Carvalho Teixeira <lucascarvalho@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/lucascarvalho/eslint-config/issues"
   },
   "homepage": "https://github.com/lucascarvalho/eslint-config#readme",
-  "devDependencies": {
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "2.22.0",
     "@typescript-eslint/parser": "2.22.0",
     "eslint": "6.8.0",
@@ -60,5 +60,8 @@
     "prettier": "1.19.1",
     "typescript": "3.8.3"
   },
-  "dependencies": {}
+  "devDependencies": {
+    "husky": "4.2.3",
+    "lint-staged": "10.0.8"
+  }
 }
