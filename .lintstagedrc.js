@@ -2,7 +2,7 @@
  * Configuration for lint-staged.
  */
 module.exports = {
-  "*.js,tsx": [
+  "*.js": [
     "import-sort --write",
     "eslint --fix --max-warnings 0",
     "prettier --write",
