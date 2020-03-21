@@ -61,6 +61,7 @@
     "typescript": "3.8.3"
   },
   "devDependencies": {
+    "import-sort-cli": "6.0.0",
     "husky": "4.2.3",
     "lint-staged": "10.0.8"
   }
