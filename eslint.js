@@ -12,5 +12,11 @@ module.exports = {
     "./rules/sort-keys-fix",
     "./rules/typescript",
     "./rules/prettier"
-  ].map(require.resolve)
+  ].map(require.resolve),
+  parser: null,
+  parserOptions: {
+    ecmaFeatures: {
+      modules: false
+    }
+  }
 };
