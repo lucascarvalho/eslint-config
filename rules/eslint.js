@@ -8,20 +8,20 @@ module.exports = {
     fetch: "readonly",
     module: "readonly",
     process: "readonly",
-    require: "readonly"
+    require: "readonly",
   },
   ignorePatterns: ["node_modules/"],
   parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaFeatures: {
-      modules: true
+      modules: true,
     },
     ecmaVersion: 6,
     project: "./tsconfig.json",
-    sourceType: "module"
+    sourceType: "module",
   },
   rules: {
     /* Disable to better organize the code. */
-    "one-var": ["error", "never"]
-  }
+    "one-var": ["error", "never"],
+  },
 };

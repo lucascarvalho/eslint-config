@@ -6,6 +6,6 @@ module.exports = {
     "import-sort --write",
     "eslint --fix --max-warnings 0",
     "prettier --write",
-    `jest --coverage=false --passWithNoTests --bail --onlyChanged`
-  ]
+    `jest --coverage=false --passWithNoTests --bail --onlyChanged`,
+  ],
 };
