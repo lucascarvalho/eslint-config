@@ -5,10 +5,10 @@ module.exports = {
   overrides: [
     {
       files: [
-        ".eslintrc.js",
-        ".huskyrc.js",
-        ".lintstagedrc.js",
-        ".prettierrc.js"
+        ".*rc.js",
+        "*.config.{ts,js}",
+        "*.spec.{ts,js}",
+        "*.test.{ts,js}"
       ],
       rules: {
         "filenames/match-regex": ["off"]
