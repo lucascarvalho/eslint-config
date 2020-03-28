@@ -8,7 +8,7 @@ module.exports = {
       options: { parser: "json" },
     },
     {
-      files: [".*rc.js"],
+      files: [".*rc.js", ".config.js"],
       options: {
         printWidth: 110,
       },
