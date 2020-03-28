@@ -1,5 +1,5 @@
 /**
- * Entry point for the main configuration.
+ * Entry point for the eslint configuration.
  */
 module.exports = {
   extends: [
