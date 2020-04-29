@@ -21,6 +21,15 @@ module.exports = {
     sourceType: "module",
   },
   rules: {
+    /* Allow the usage of undefined */
+    "no-undefined": "off",
+
+    /* Allow TODO as warning comment. */
+    "no-warning-comments": [
+      "error",
+      { location: "start", terms: ["fixme", "xxx"] },
+    ],
+
     /* Disable to better organize the code. */
     "one-var": ["error", "never"],
   },
