@@ -1,6 +1,8 @@
 # eslint-config
 
-This repository provides Eslint configuration adding as many rules are available in each plugin, so you can see what changes are being made on the most recent versions and how they impact your codebase, also it's a great way to learn more about good practices when developing in JavaScript and/or TypeScript.
+The eslint-config provides all the available rules in each plugin. You can easily see how the latest changes will affect your codebase. It's also a great way to learn more about good practices when developing in JavaScript and TypeScript.
+
+Some rules are disabled or modified in this repository to prevent conflicts between them.
 
 # Setup
 
