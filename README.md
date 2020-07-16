@@ -35,6 +35,7 @@ All the supported plugins:
 
 Every configuration available is extendable, see the example below on how to extend the eslint config and overwrite rules:
 
+```javascript
     /**
      * Configuration for eslint.
      */
@@ -54,3 +55,4 @@ Every configuration available is extendable, see the example below on how to ext
             // Add your custom settings here...
         },
     };
+```
