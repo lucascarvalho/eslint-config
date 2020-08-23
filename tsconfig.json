@@ -15,14 +15,6 @@
     "strictNullChecks": true,
     "strictPropertyInitialization": true,
     "target": "esnext",
-    "sourceMap": true,
-    "outDir": "dist",
-    "baseUrl": ".",
-    "paths": {
-      "*": ["node_modules/*"],
-      "src/*": ["./*"]
-    }
-  },
-  "exclude": [""],
-  "include": ["/**/*"]
+    "sourceMap": true
+  }
 }
