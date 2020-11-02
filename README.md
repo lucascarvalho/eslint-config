@@ -1,4 +1,4 @@
-# eslint-config
+# eslint-config ![CI](https://github.com/lucascarvalho/eslint-config/workflows/CI/badge.svg)
 
 The eslint-config provides all the available rules in each plugin. You can easily see how the latest changes will affect your codebase. It's also a great way to learn more about good practices when developing in JavaScript and TypeScript.
 
